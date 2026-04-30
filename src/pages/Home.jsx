@@ -10,6 +10,7 @@ import img3 from '../assets/images/resultados-excepcionales.jpg';
 import img4 from '../assets/images/disponibilidad-accesibilidad.jpg';
 import img5 from '../assets/images/diagnosticos-seguros.jpg';
 import img6 from '../assets/images/inspiramos-confianza.jpg';
+import logo from '../assets/images/jade.png';
 
 export default function Home() {
   const reasons = [
@@ -110,9 +111,20 @@ export default function Home() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-6xl md:text-8xl font-bold text-[#359ede] mb-12">
-              <span className="text-primary">JADE</span>
-            </h1>
+            {/* Imagen */}
+            <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            className="flex justify-center"
+            >
+            <img 
+                src={logo}  // Aquí va tu imagen real
+                alt="Logo Jade"
+                className="rounded-3xl object-cover w-sm max-w-sm"
+            />
+            </motion.div>
             <p className="text-xl md:text-2xl text-gray-300 mb-8">
               Clínica especializada en Oftalmología
             </p>

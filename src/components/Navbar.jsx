@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { motion } from 'framer-motion';
+import logo from '../assets/images/jade.png';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,10 +20,11 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white font-bold text-xl">
-              J
-            </div>
-            <span className="text-2xl font-bold text-[#359ede]">JADE</span>
+            <img 
+                src={logo}  // Aquí va tu imagen real
+                alt="Logo Jade"
+                className="rounded-3xl object-cover w-1/8"
+            />
           </Link>
 
           {/* Desktop Menu */}

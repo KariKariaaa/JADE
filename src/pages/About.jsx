@@ -4,6 +4,7 @@ import { CheckCircle, Lightbulb, Heart, Users, Facebook, Instagram } from 'lucid
 import { Link } from 'react-router-dom';
 import fondo from '../assets/images/fondo-about.jpg';
 import imagen from '../assets/images/whyus.jpg';
+import dra from '../assets/images/dra.jpg';
 
 export default function About() {
   const missionVision = [
@@ -171,8 +172,8 @@ export default function About() {
               className="flex justify-center"
             >
             <img 
-                src={imagen}  // Aquí va tu imagen real
-                alt="Elegirnos"
+                src={dra}  // Aquí va tu imagen real
+                alt="Dra. Wendy Ventura Klug"
                 className="rounded-3xl shadow-lg object-cover w-lg max-w-sm"
             />
             </motion.div>
