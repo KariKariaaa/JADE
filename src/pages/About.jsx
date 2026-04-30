@@ -10,12 +10,12 @@ export default function About() {
     {
       icon: Lightbulb,
       title: 'Nuestra Misión',
-      content: 'Proporcionar atención oftalmológica de excelencia, combinando medicina estética avanzada con un toque humano, para mejorar la calidad de vida de nuestros pacientes.'
+      content: 'Proporcionar atención oftalmológica de excelencia, combinando medicina avanzada con un toque humano, para mejorar la calidad de vida de nuestros pacientes.'
     },
     {
       icon: Heart,
       title: 'Nuestra Visión',
-      content: 'Ser la clínica de referencia en oftalmología y medicina estética, reconocida por nuestra innovación, dedicación al paciente y resultados excepcionales.'
+      content: 'Ser la clínica de referencia en oftalmología, reconocida por nuestra innovación, dedicación al paciente y resultados excepcionales.'
     }
   ];
 
@@ -25,7 +25,7 @@ export default function About() {
     { year: '2018', event: 'Obtención de certificación en medicina estética' },
     { year: '2020', event: 'Tercera sede inaugurada' },
     { year: '2022', event: 'Cuarta ubicación estratégica' },
-    { year: '2024', event: 'Líderes en oftalmología estética de la región' },
+    { year: '2024', event: 'Líderes en oftalmología de la región' },
   ];
 
   const values = [
@@ -69,7 +69,7 @@ export default function About() {
                 CONOCE A JADE
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 mb-8">
-              Más de una década dedicada a la excelencia en oftalmología y medicina estética. Tu confianza es nuestro mayor logro.
+              Más de una década dedicada a la excelencia en oftalmología. Tu confianza es nuestro mayor logro.
             </p>
 
                         <div className="flex items-center justify-center gap-3 text-sm md:text-base text-gray-300 mb-12">
@@ -158,7 +158,7 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-4">
           <SectionTitle2 
             title="Conoce a nuestra doctora"
-            subtitle="Dedicada a brindarte la mejor atención oftalmológica y estética con profesionalismo y calidez humana."
+            subtitle="Dedicada a brindarte una excelente atención oftalmológica con profesionalismo y calidez humana."
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -193,17 +193,17 @@ export default function About() {
 
               <div className="space-y-4 text-gray-600 leading-relaxed mb-8">
                 <p>
-                  Con más de una década de experiencia en oftalmología y medicina estética, la Dra. Wendy se ha convertido en referente en el cuidado de la salud visual y la belleza ocular.
+                  Con más de una década de experiencia en oftalmología, la Dra. Wendy se ha convertido en referente en el cuidado de la salud visual.
                 </p>
                 <p>
                   Su pasión por la medicina y dedicación a cada paciente la caracterizan como una profesional empática y de alto nivel técnico. Combina los conocimientos médicos más avanzados con una atención personalizada que genera confianza y satisfacción.
                 </p>
                 <p>
-                  Constantemente se actualiza en las técnicas más modernas y ha participado en congresos internacionales de oftalmología y medicina estética, lo que le permite ofrecer siempre las mejores opciones terapéuticas.
+                  Constantemente se actualiza en las técnicas más modernas y ha participado en congresos internacionales de oftalmología y medicina, lo que le permite ofrecer siempre las mejores opciones.
                 </p>
               </div>
 
-            <p className="space-y-4 text-gray-600 leading-relaxed  mb-8">
+            <p className="space-y-4 text-gray-600 leading-relaxed mb-8">
               "Mi objetivo es que cada paciente se sienta escuchado, comprendido y tratado como merece. 
               La medicina es ante todo un acto de humanidad. Busco no solo mejorar la salud visual de mis pacientes, 
               sino también su confianza y calidad de vida."
@@ -222,11 +222,14 @@ export default function About() {
             subtitle="Un camino de crecimiento y dedicación"
             />
 
+            <p className='text-center space-y-4 text-gray-600 leading-relaxed mb-8'>Proximamente...</p>
+
             <div className="relative mt-12">
 
-            {/* Línea vertical centrada */}
+            {/* Línea vertical centrada 
             <div className="absolute left-1/2 -translate-x-1/2 top-0 h-full w-1 bg-[#359ede]/40 rounded-full"></div>
-
+            */}
+            {/* 
             <div className="space-y-12">
                 {history.map((item, index) => {
                 const isLeft = index % 2 === 0; // Alterna
@@ -240,7 +243,7 @@ export default function About() {
                     transition={{ delay: index * 0.1, duration: 0.5 }}
                     className="relative"
                     >
-                    {/* Card IZQUIERDA */}
+                    {/* Card IZQUIERDA 
                     {isLeft && (
                         <div className="pr-[55%] text-right">
                         <div className="bg-[#359ede] p-6 rounded-xl shadow-lg max-w-md ml-auto">
@@ -248,12 +251,12 @@ export default function About() {
                             <p className="text-white">{item.event}</p>
                         </div>
                         </div>
-                    )}
+                    )}*/}
 
-                    {/* Punto en la línea */}
+                    {/* Punto en la línea 
                     <div className="absolute left-1/2 -translate-x-1/2 top-2 w-7 h-7 mt-7 rounded-full bg-[#359ede] border-4 border-white shadow-md"></div>
-
-                    {/* Card DERECHA */}
+                    */}
+                    {/* Card DERECHA 
                     {!isLeft && (
                         <div className="pl-[55%]">
                         <div className="bg-[#359ede] p-6 rounded-xl shadow-lg max-w-md">
@@ -265,7 +268,8 @@ export default function About() {
                     </motion.div>
                 );
                 })}
-            </div>
+            </div>          
+            */}
             </div>
         </div>
       </section>

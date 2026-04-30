@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Card, SectionTitle, Button, SectionTitle2 } from '../components';
-import { Check, Heart, Sparkles, HeartPulse, Facebook, Instagram, Phone } from 'lucide-react';
+import { Check, Heart, Sparkles, HeartPulse, Facebook, Instagram, Phone, Eye } from 'lucide-react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import fondo from '../assets/images/fondo-services.jpg';
@@ -181,7 +181,7 @@ export default function Services() {
                 </span>
 
                 <span className="w-15 h-15 flex items-center justify-center rounded-full bg-[#359ede]">
-                    <HeartPulse className="text-primary animate-pulse" size={40} />
+                    <Eye className="text-primary animate-pulse" size={40} />
                 </span>
             </div>
 

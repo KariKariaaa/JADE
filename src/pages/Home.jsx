@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Smile, Heart, HeartPulse, Star, Users, Award, Clock, Facebook, Instagram, Phone} from 'lucide-react';
+import { Smile, Heart, HeartPulse, Star, Users, Award, Clock, Facebook, Instagram, Phone, Eye} from 'lucide-react';
 import { Button, Card, SectionTitle, SectionTitle2} from '../components';
 import { Link } from 'react-router-dom';
 import fondo from '../assets/images/fondo.jpg';
@@ -16,7 +16,7 @@ export default function Home() {
     {
       icon: Award,
       title: 'Especialización Comprobada',
-      description: 'Dra. Oftalmóloga Oculoplástica con Máster en Medicina Estética y Anti-aging. Certificaciones internacionales en procedimientos estéticos avanzados.',
+      description: 'Dra. Oftalmóloga Oculoplástica con Máster en Medicina Estética y Anti-aging. Certificaciones internacionales en procedimientos avanzados.',
       image: img1
     },
     {
@@ -114,7 +114,7 @@ export default function Home() {
               <span className="text-primary">JADE</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 mb-8">
-              Clínica especializada en Oftalmología y Medicina Estética
+              Clínica especializada en Oftalmología
             </p>
             <div className="flex items-center justify-center gap-3 text-sm md:text-base text-gray-300 mb-8">
                 <span>ESPECIALISTA CERTIFICADA<br />
@@ -123,7 +123,7 @@ export default function Home() {
                 </span>
 
             <span className="w-15 h-15 flex items-center justify-center rounded-full bg-[#359ede]">
-                <HeartPulse className="text-primary animate-pulse" size={40} />
+                <Eye className="text-primary animate-pulse" size={40} />
             </span>
             </div>
 
@@ -183,7 +183,7 @@ export default function Home() {
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl">
                 En JADE, nos dedicamos a brindar atención oftalmológica de excelencia combinada con tratamientos estéticos innovadores. Nuestra misión es mejorar la salud visual y la confianza de nuestros pacientes.
-                Somos tu mejor opción en oftalmología y medicina estética. Descubre qué nos hace diferentes.
+                Somos una excelente opción en oftalmología y medicina estética. Descubre qué nos hace diferentes.
             </p>
             </motion.div>
 

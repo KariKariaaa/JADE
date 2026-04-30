@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Card, SectionTitle, Button } from '../components';
-import { MapPin, Phone, Clock, MapIcon, HeartPulse, Facebook, Instagram} from 'lucide-react';
+import { MapPin, Phone, Clock, MapIcon, HeartPulse, Facebook, Instagram, Eye} from 'lucide-react';
 import { useState } from 'react';
 import fondo from '../assets/images/fondo-locations.jpg';
 import { Link } from 'react-router-dom';
@@ -89,7 +89,7 @@ export default function Locations() {
                 </span>
 
                 <span className="w-15 h-15 flex items-center justify-center rounded-full bg-[#359ede]">
-                    <HeartPulse className="text-primary animate-pulse" size={40} />
+                    <Eye className="text-primary animate-pulse" size={40} />
                 </span>
             </div>
 

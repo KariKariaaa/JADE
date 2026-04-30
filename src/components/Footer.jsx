@@ -10,7 +10,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4 text-primary">JADE</h3>
             <p className="text-gray-300 text-sm">
-              Clínica especializada en oftalmología y estética con más de una década de experiencia.
+              Clínica especializada en oftalmología con más de una década de experiencia.
             </p>
           </div>
 
